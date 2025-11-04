@@ -2,8 +2,8 @@
 
 This is my **first Machine Learning project**, where I developed and evaluated two baseline models for **credit card fraud detection**:
 
-1. 🧩 **Custom (from-scratch) K-Nearest Neighbors (KNN)** implemented manually and optimized using **FAISS** for efficient nearest-neighbor search.  
-2. 🌳 **Decision Tree Classifier** used as a baseline model for comparison and interpretability.
+1. **Custom (from-scratch) K-Nearest Neighbors (KNN)** implemented manually and optimized using **FAISS** for efficient nearest-neighbor search.  
+2. **Decision Tree Classifier** used as a baseline model for comparison and interpretability.
 
 
 The project focuses on understanding the challenges of **imbalanced data**, the importance of **feature scaling**, and evaluating model performance using appropriate metrics such as **F1-score** and **confusion matrix**.
@@ -39,17 +39,17 @@ In this project:
 
 ## ⚙️ Features Implemented
 
-- 📊 **Exploratory Data Analysis (EDA)** - visualizing data distributions and class imbalance.  
-- 🧩 **Custom KNN Implementation** - built from scratch with FAISS acceleration.  
-- 🌳 **Decision Tree Baseline Model** - implemented and visualized with `plot_tree()`.  
-- ⚖️ **SMOTE Oversampling** - to balance minority (fraud) class.  
-- 📈 **Feature Scaling** - standardized numeric features for distance-based models.  
-- 🧪 **Model Evaluation** - compared performance using F1-score, accuracy, and confusion matrices.  
-- 🔍 **Hyperparameter Tuning** - optimized `k` (neighbors) for KNN and `max_depth` for Decision Tree using GridSearchCV.  
+- **Exploratory Data Analysis (EDA)** - visualizing data distributions and class imbalance.  
+- **Custom KNN Implementation** - built from scratch with FAISS acceleration.  
+- **Decision Tree Baseline Model** - implemented and visualized with `plot_tree()`.  
+- **SMOTE Oversampling** - to balance minority (fraud) class.  
+- **Feature Scaling** - standardized numeric features for distance-based models.  
+- **Model Evaluation** - compared performance using F1-score, accuracy, and confusion matrices.  
+- **Hyperparameter Tuning** - optimized `k` (neighbors) for KNN and `max_depth` for Decision Tree using GridSearchCV.  
 
 ---
 
-## ⚡ Why FAISS Was Used Instead of Scikit-Learn K-NN
+## Why FAISS Was Used Instead of Scikit-Learn K-NN
 
 The **scikit-learn K-NN** implementation works well for small to medium datasets but becomes **computationally expensive** for large, high-dimensional datasets like this credit card fraud dataset (~284,000 samples × 30 features).
 
