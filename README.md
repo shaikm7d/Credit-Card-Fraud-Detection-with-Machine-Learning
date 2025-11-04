@@ -3,7 +3,7 @@
 This is my **first Machine Learning project**, where I developed and evaluated two baseline models for **credit card fraud detection**:
 
 1. **Custom (from-scratch) K-Nearest Neighbors (KNN)** implemented manually and optimized using **FAISS** for efficient nearest-neighbor search.  
-2. **Decision Tree Classifier** used as a baseline model for comparison and interpretability.
+2. **Decision Tree** used as a baseline model for comparison and interpretability.
 
 
 The project focuses on understanding the challenges of **imbalanced data**, the importance of **feature scaling**, and evaluating model performance using appropriate metrics such as **F1-score** and **confusion matrix**.
@@ -23,6 +23,20 @@ In this project:
 - I evaluated both models using **accuracy**, **F1-score**, and **confusion matrices**.
 
 ---
+
+## 📂 Dataset & Code Files
+
+### Dataset
+- **File:** `dataset.csv.gz`  
+- **Description:** Contains anonymized credit card transaction data with 31 features (`Time`, `V1`–`V28`, `Amount`, `Class`).  
+- **Target Variable:** `Class` (0 = Legitimate, 1 = Fraudulent).  
+- **Size:** ~284,807 rows × 31 columns.  
+
+> This dataset is the well-known **Credit Card Fraud Detection Dataset** available from [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud).  
+
+### Code
+- **File:** `code.ipynb`
+- **Description:** This notebook contains the **complete project workflow**, including data loading, preprocessing, exploratory data analysis (EDA), model development, training, evaluation, and result visualization for both the custom KNN and Decision Tree models.
 
 ## 🧰 Tools & Technologies
 
