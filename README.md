@@ -1,19 +1,9 @@
 # 💳 Credit Card Fraud Detection
-
-This is my **first Machine Learning project**, where I developed and evaluated two baseline models for **credit card fraud detection**:
-
-1. **Custom (from-scratch) K-Nearest Neighbors (KNN)** implemented manually and optimized using **FAISS** for efficient nearest-neighbor search.  
-2. **Decision Tree** used as a baseline model for comparison and interpretability.
-
-
-The project focuses on understanding the challenges of **imbalanced data**, the importance of **feature scaling**, and evaluating model performance using appropriate metrics such as **F1-score** and **confusion matrix**.
-
----
+**Author:** Shaik Mohammed
 
 ## 📌 Project Overview
 
-Credit card fraud detection is a classic binary classification problem where the fraudulent transactions are extremely rare compared to legitimate ones.  
-The dataset used contains over **280,000 transactions**, with only about **0.17%** being fraud cases.
+This is my **first Machine Learning project**, where I developed and evaluated two baseline models for credit card fraud detection, which is a classic binary classification problem where the fraudulent transactions are extremely rare compared to legitimate ones. The dataset used contains over **280,000 transactions**, with only about **0.17%** being fraud cases.
 
 In this project:
 - I **implemented a KNN model from scratch**, using **FAISS** for efficient nearest-neighbor searches.
